@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gome>
+
+<!-- 固定url 数据 -->
+	<loginUrl>http://g.#variable#/ec/homeus/myaccount/login.jsp?tableName=login&amp;orginURI=</loginUrl> <!-- 登陆url -->
+	<cartUrl>http://g.#variable#/ec/homeus/cart/cart.jsp</cartUrl>  <!-- 购物车url -->
+	<uat-detailspage1>http://www.atguat.com.cn/product/prod21500053-sku21420030.html</uat-detailspage1>  <!-- Uat详情页smi -->
+
+<!--  登陆相   关 数据 -->
+	<login>
+		<login-loginName>id=loginName</login-loginName>    <!-- 登陆账号 -->
+		<login-loginPassword>id=loginPassword</login-loginPassword> <!-- 登陆密码吗 -->
+		<login-authenticCodeForLogin>id=authenticCodeForLogin</login-authenticCodeForLogin> <!-- 验证码 -->
+		<login-btnnuw>className=btnnuw</login-btnnuw> <!-- 提交按钮 -->
+		<login-glogout>className=glogout</login-glogout> <!-- 首页退出标签 -->
+	</login>
+	
+	<!--  购物车   相关 -->
+	<cart>
+		<cart-clear>id=clear-cart</cart-clear>    <!-- 购物车  全部删除标签 -->
+		<cart-clear_OK>a.nBtn.nBtn-g.js-claerCart</cart-clear_OK><!-- 购物车  点击全部删除后弹层 确认按钮-->
+	</cart>
+	
+	<!-- 详情页 相关 -->
+	<detailspage>
+		<detailspage-prdtit>className=prdtit</detailspage-prdtit>    <!-- 详情页 商品名称标签 -->
+	</detailspage>
+	
+	<!-- 环境匹配 数据 -->
+	<domain>
+		<xmlsit>atgsit.com.cn</xmlsit>
+		<xmluat>atguat.com.cn</xmluat>
+		<xmlpre>gomeprelive.com.cn</xmlpre>
+	</domain>
+	
+	
+	
+</gome>

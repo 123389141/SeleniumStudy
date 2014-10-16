@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gome>
+
+<!-- 固定url 数据  login@@params -->
+	<login>
+		<url>http://g.#variable#/ec/homeus/myaccount/login.jsp?tableName=login&amp;orginURI=</url>
+		<params>_dynSessConf,1885962775661229429</params>  
+		<params>/atg/userprofiling/B2CProfileFormHandler.loginSuccessURL,http://g.atguat.com.cn/ec/homeus/myaccount/gome/profileHome.jsp?flag=a&amp;_requestid=456&amp;locale=zh_CN</params>
+	</login> 
+<!-- 登陆url -->
+<!--
+	map.put("_dyncharset","utf-8");
+			map.put("_dynSessConf","1885962775661229429");
+			map.put("/atg/userprofiling/B2CProfileFormHandler.loginSuccessURL","http://g.atguat.com.cn/ec/homeus/myaccount/gome/profileHome.jsp?flag=a&_requestid=456&locale=zh_CN");
+			map.put("_D:/atg/userprofiling/B2CProfileFormHandler.loginSuccessURL","");
+			map.put("/atg/userprofiling/B2CProfileFormHandler.loginErrorURL","/ec/homeus/myaccount/login.jsp?tableName=login");
+			map.put("_D:/atg/userprofiling/B2CProfileFormHandler.loginErrorURL","");
+			map.put("/atg/userprofiling/B2CProfileFormHandler.value.login","zdh_01");
+			map.put("_D:/atg/userprofiling/B2CProfileFormHandler.value.login","");
+			map.put("gomeOrCoo8","gome");
+			map.put("/atg/userprofiling/B2CProfileFormHandler.value.password","zdh12345678");
+			map.put("_D:/atg/userprofiling/B2CProfileFormHandler.value.password","");
+			map.put("captcha","");
+			map.put("/atg/userprofiling/B2CProfileFormHandler.value.autoLoginMode","");
+			map.put("_D:/atg/userprofiling/B2CProfileFormHandler.value.autoLoginMode","");
+			map.put("chkRememberUsername","1");
+			map.put("/atg/userprofiling/B2CProfileFormHandler.orginURI","http://g.atguat.com.cn/ec/homeus/myaccount/gome/profileHome.jsp?flag=a&_requestid=456");
+			map.put("_D:/atg/userprofiling/B2CProfileFormHandler.orginURI","");
+			map.put("/atg/userprofiling/B2CProfileFormHandler.login","登录");
+			map.put("_D:/atg/userprofiling/B2CProfileFormHandler.login","");
+			map.put("_DARGS","/ec/myaccount/login.jsp"); 
+	-->
+	
+	<cartUrl>http://g.#variable#/ec/homeus/cart/cart.jsp</cartUrl>  <!-- 购物车url -->
+	
+	
+	<domain>
+		<xmlsit>atgsit.com.cn</xmlsit>
+		<xmluat1>atguat.com.cn</xmluat1>
+		<xmlpre>gomeprelive.com.cn</xmlpre>
+	</domain>
+</gome>

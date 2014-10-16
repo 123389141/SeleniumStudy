@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gometest>
+<!-- 
+	<testcase id = "1" tpye="order" name="test1"> 
+		<method  methodname="getDriver" class="CusAction" values="ff" isFalg="Y">111</method>
+		<method  methodname="open" class="CusAction" values="http://www.baidu.com/">222</method>
+		<method  methodname="login" class="CusAction" values="xmluat=loginUrl,zdh_01,zdh12345678">测试登陆</method>、
+		<method  methodname="clearCat" class="CusAction" values="xmluat=cartUrl">测试清空购物车</method>
+		<method  methodname="detailspage" class="CusAction" values="xml=uat-detailspage1">测试清空购物车</method>
+		
+	</testcase>
+	
+	
+	public TestMethodBean testLiJing(TestMethodBean tmb){
+		try{
+			Test t	= new Test();
+			if(t.testStr(tmb.getStepValses()[0],tmb.getStepValses()[1]).equals(tmb.getText())){
+				tmb = repustTestMethodBean(tmb,0,0);
+			}else{
+				tmb = repustTestMethodBean(tmb,1,2);
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+			tmb = repustTestMethodBean(tmb,2,1);
+		}
+		return tmb;
+	}
+	 		
+	<testcase id = "1" tpye="order" name="testLiJing"> 
+		<method  methodname="testLiJing" class="CusAction" values="10,11" isFalg="Y">小于</method>
+		<method  methodname="testLiJing" class="CusAction" values="11,11" isFalg="Y">等于</method>
+		<method  methodname="testLiJing" class="CusAction" values="12,11" isFalg="Y">大于</method>
+		<method  methodname="testLiJing" class="CusAction" values="ww,11" isFalg="Y">小于</method>
+		<method  methodname="testLiJing" class="CusAction" values="10,ww" isFalg="Y">小于</method>
+		<method  methodname="testLiJing" class="CusAction" values="10.1,11" isFalg="Y">小于</method>
+	</testcase>
+	
+	<testcase id = "1" tpye="order" name="testLiJing"> <method  methodname="testLiJing" class="CusAction" values="10,11" isFalg="Y">小于</method>
+
+
+	<testcase id = "1" tpye="order" name="test1"> 
+		<method  methodname="initDriver" class="CusAction" values="ff" isFalg="Y">111</method>
+		<method  methodname="login" class="CusAction" values="xmluat=loginUrl,cuser,password">222</method>
+	</testcase>
+	-->
+	
+</gometest>
