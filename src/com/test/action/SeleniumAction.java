@@ -160,7 +160,7 @@ public class SeleniumAction {
 		String[] str1 = {"id=kw","java"};
 		sa.initDriver(str);
 		sa.open(str2);
-		//sa.set(str1);
+		sa.set(str1);
 
 	}
 }
